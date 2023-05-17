@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Spectral', serif;
+}
+
+header {
+	background-image: url(madeira.jpg);
+	padding: 10px 0;
+    font-family: 'Spectral', serif
+  }
+  .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+  }
+  
+  .top-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .logo img {
+	background-color: #F6DFBC;
+	width: 80px;
+	border-radius: 15px;
+  }
+  
+  .search-bar {
+	display: flex;
+	width: 750px;
+	height: 50px;
+	align-items: center;
+	border: 1px solid #F6DFBC;
+	border-radius: 50px;
+	margin: 0 20px;
+	padding: 6px;
+	background-color: #F6DFBC;
+	color: gray;
+  }
+  
+  .search-bar input[type="text"] {
+	width: 100%;
+	border: none;
+	font-size: 16px;
+	padding: 0 10px;
+	background-color: transparent;
+  }
+  
+  .search-bar button[type="submit"] {
+	background-color: transparent;
+	color: black;
+	border: none;
+	padding: 6px 10px;
+	border-radius: 0 4px 4px 0;
+	font-size: 16px;
+
+  }
+  
+  .search-bar button[type="submit"]:hover {
+	background-color: #d6bb93;
+  }
+  
+  .bottom-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: auto;
+	justify-content: space-between;
+
+  }
+  
+  .buttons a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 15px;
+  }
+  
+  .buttons a:hover {
+	color: gainsboro;
+  }
+  
+  .account a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 15px;
+	
+  }
+  
+  .account a:hover {
+	color: gainsboro;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color:#f2f2f2 ;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
